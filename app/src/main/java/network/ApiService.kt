@@ -1,15 +1,18 @@
 package com.example.smart_identity_authentication_manager.network
 
 import retrofit2.Call
-import retrofit2.http.GET
-import retrofit2.http.Path
+import retrofit2.http.Body
+import retrofit2.http.POST
 
-data class User(val id: Int, val name: String, val email: String)
+data class User(val id: Int, val email: String, val password: String)
+data class AuthResponse(val token: String)
+data class RegisterRequest(val email: String, val password: String)
+data class LoginRequest(val email: String, val password: String)
 
 interface ApiService {
-    @GET("users")
-    fun getUsers(): Call<List<User>>
+    @POST("register")
+    fun register(@Body registerRequest: RegisterRequest): Call<AuthResponse>
 
-    @GET("users/{id}")
-    fun getUserById(@Path("id") id: Int): Call<User>
+    @POST("login")
+    fun login(@Body loginRequest: LoginRequest): Call<AuthResponse>
 }

@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.example.smart_identity_authentication_manager" />
+                  <option name="mobileSdkAppId" value="1:314774192449:android:1df5f9b63c5888faebe1c0" />
+                  <option name="projectId" value="smart-identity-f7da4" />
+                  <option name="projectNumber" value="314774192449" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
