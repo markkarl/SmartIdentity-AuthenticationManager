@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "314774192449",
+    "project_id": "smart-identity-f7da4",
+    "storage_bucket": "smart-identity-f7da4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314774192449:android:1df5f9b63c5888faebe1c0",
+        "android_client_info": {
+          "package_name": "com.example.smart_identity_authentication_manager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCaOBXev--c_CORqSgbZ0iI4QtCp6Hmpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
